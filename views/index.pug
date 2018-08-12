@@ -1,0 +1,18 @@
+doctype heml
+html
+    head
+        title="Main Site"
+        style.
+            body {
+                margin: 20px auto;
+                width: 800px;
+                text-align: center;
+                font-weight: bold;
+            }
+    body
+      div
+        img(src='https://i.wpimg.pl/730x0/m.gadzetomania.pl/google22-9f4bce1e1db0c2ed70a1820.jpg', alt='google')
+      h3 Zaloguj się na swoje konto Google
+      form(action='/auth/google', method='GET')
+        input(type='submit', value='Logowanie')
+        
